@@ -1,0 +1,166 @@
+{
+    "quests": [
+                {
+                    "quest_id": "1",
+                    "quest_modid": "minecraft",
+                    "quest_flavor": "",
+                    "quest_tasks":"Make dirt starter house"
+                },
+                {
+                    "quest_id": "2",
+                    "quest_modid": "minecraft",
+                    "quest_flavor": "",
+                    "quest_tasks":"Collect some wood and make wooden tools. Collect some cobble and make stone tools."
+                },
+                {
+                    "quest_id": "3",
+                    "quest_modid": "minecraft",
+                    "quest_flavor": "",
+                    "quest_tasks":"Collect wood and cobble for making furnace. Create at least stack of charcoal."
+                },  
+                {
+                    "quest_id": "4",
+                    "quest_modid": "minecraft",
+                    "quest_flavor": "",
+                    "quest_tasks":"Go mining and find iron."
+                },
+                {
+                    "quest_id": "5",
+                    "quest_modid": "minecraft",
+                    "quest_flavor": "",
+                    "quest_tasks":"Create iron armor and tools."
+                },
+                {
+                    "quest_id": "6",
+                    "quest_modid": "minecraft",
+                    "quest_flavor": "",
+                    "quest_tasks":"Craft a bucket and create farm"
+                },
+                {
+                    "quest_id": "7",
+                    "quest_modid": "minecraft",
+                    "quest_flavor": "",
+                    "quest_tasks":"Look for animals and start breeding them"
+                },
+                {
+                    "quest_id": "8",
+                    "quest_modid": "minecraft",
+                    "quest_flavor": "",
+                    "quest_tasks":"Mine deeper for gold and diamonds."
+                },
+                {
+                    "quest_id": "9",
+                    "quest_modid": "minecraft",
+                    "quest_flavor": "",
+                    "quest_tasks":"Create diamond armor and tools"
+                },
+                {
+                    "quest_id": "10",
+                    "quest_modid": "minecraft",
+                    "quest_flavor": "",
+                    "quest_tasks":"Create enchanting table. Enchant all Your gear"
+                },
+                {
+                    "quest_id": "11",
+                    "quest_modid": "minecraft",
+                    "quest_flavor": "",
+                    "quest_tasks":"Create nether portal and go exploring"
+                },
+                {
+                    "quest_id": "12",
+                    "quest_modid": "minecraft",
+                    "quest_flavor": "",
+                    "quest_tasks":"Find netherwart and blaze rods."
+                },
+                {
+                    "quest_id": "13",
+                    "quest_modid": "minecraft",
+                    "quest_flavor": "",
+                    "quest_tasks":"Craft brewing stand and start brewing potions"
+                },
+                {
+                    "quest_id": "14",
+                    "quest_modid": "minecraft",
+                    "quest_flavor": "",
+                    "quest_tasks":"Collect ender pearls and find end portal"
+                },
+                {
+                    "quest_id": "15",
+                    "quest_modid": "minecraft",
+                    "quest_flavor": "",
+                    "quest_tasks":"Go to end and kill enderdragon"
+                },
+                {
+                    "quest_id": "16",
+                    "quest_modid": "minecraft",
+                    "quest_flavor": "",
+                    "quest_tasks":"Farm wither skeletons for their skulls"
+                },
+                {
+                    "quest_id": "17",
+                    "quest_modid": "minecraft",
+                    "quest_flavor": "",
+                    "quest_tasks":"Create and kill wither"
+                },
+                {
+                    "quest_id": "18",
+                    "quest_modid": "minecraft",
+                    "quest_flavor": "",
+                    "quest_tasks":"Craft and use beacon"
+                },
+                {
+                    "quest_id": "19",
+                    "quest_modid": "minecraft",
+                    "quest_flavor": "",
+                    "quest_tasks":"Build giant castle"
+                },
+                {
+                    "quest_id": "20",
+                    "quest_modid": "minecraft",
+                    "quest_flavor": "",
+                    "quest_tasks":"Build vanila mob spawner"
+                },
+                {
+                    "quest_id": "21",
+                    "quest_modid": "minecraft",
+                    "quest_flavor": "",
+                    "quest_tasks":"Find dungeon"
+                },
+                {
+                    "quest_id": "22",
+                    "quest_modid": "witchery",
+                    "quest_flavor": "",
+                    "quest_tasks":"Find garlic, mandrake, belladona, water artichoke, snow seeds and farm them."
+                },
+                {
+                    "quest_id": "23",
+                    "quest_modid": "witchery",
+                    "quest_flavor": "",
+                    "quest_tasks":"Create witches oven"
+                },
+                {
+                    "quest_id": "24",
+                    "quest_modid": "Thaumcraft",
+                    "quest_flavor": "",
+                    "quest_tasks":"Create basic iron banded wand"
+                },
+                {
+                    "quest_id": "25",
+                    "quest_modid": "Thaumcraft",
+                    "quest_flavor": "",
+                    "quest_tasks":"Craft bookcase and right click it to get Thaumonomicon"
+                },
+                {
+                    "quest_id": "26",
+                    "quest_modid": "TConstruct",
+                    "quest_flavor": "",
+                    "quest_tasks":"Craft some blank patterns"
+                },
+                {
+                    "quest_id": "27",
+                    "quest_modid": "TConstruct",
+                    "quest_flavor": "",
+                    "quest_tasks":"Craft Part Builder, Tool Station and Stencil Table"
+                }
+            ]
+}

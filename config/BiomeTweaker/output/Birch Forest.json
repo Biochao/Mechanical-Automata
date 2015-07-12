@@ -10,8 +10,8 @@
   "Filler Block": "minecraft:dirt",
   "Actual Filler Block": "minecraft:stone",
   "Liquid Filler Block": "minecraft:water",
-  "Grass Color": "Not Set",
-  "Foliage Color": "Not Set",
+  "Grass Color": "Not set. Check in-game.",
+  "Foliage Color": "Not set. Check in-game.",
   "Water Color": "16777215",
   "Temperature": 0.4,
   "Humidity": 0.7,
@@ -21,6 +21,11 @@
   "Dictionary Types": [
     "FOREST"
   ],
+  "BiomeManager Entries": {
+    "COOL Weights": [
+      1
+    ]
+  },
   "Spawnable Creatures": [
     {
       "Entity Class": "net.minecraft.entity.passive.EntitySheep",

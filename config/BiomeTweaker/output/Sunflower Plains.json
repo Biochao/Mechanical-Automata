@@ -10,8 +10,8 @@
   "Filler Block": "minecraft:dirt",
   "Actual Filler Block": "minecraft:stone",
   "Liquid Filler Block": "minecraft:water",
-  "Grass Color": "Not Set",
-  "Foliage Color": "Not Set",
+  "Grass Color": "Not set. Check in-game.",
+  "Foliage Color": "Not set. Check in-game.",
   "Water Color": "16777215",
   "Temperature": 0.8,
   "Humidity": 0.4,
@@ -21,6 +21,7 @@
   "Dictionary Types": [
     "PLAINS"
   ],
+  "BiomeManager Entries": {},
   "Spawnable Creatures": [
     {
       "Entity Class": "net.minecraft.entity.passive.EntitySheep",
@@ -95,6 +96,12 @@
       "Weight": 5,
       "Min Group Count": 1,
       "Max Group Count": 1
+    },
+    {
+      "Entity Class": "cofh.thermalfoundation.entity.monster.EntityBlitz",
+      "Weight": 10,
+      "Min Group Count": 1,
+      "Max Group Count": 4
     }
   ],
   "Spawnable Water Creatures": [

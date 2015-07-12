@@ -1,11 +1,11 @@
 {
-  "_name": "advgenerators:Turbine",
+  "_name": "MCFrames:mcframes.motor",
   "stats": {
-    "opacity": 255,
+    "opacity": 0,
     "brightness": 0,
-    "hardness": 1.0,
-    "resistance": 5.0,
-    "sound": "stone",
+    "hardness": 5.0,
+    "resistance": 30.0,
+    "sound": "metal",
     "slipperiness": 0.6,
     "tool_data": []
   },

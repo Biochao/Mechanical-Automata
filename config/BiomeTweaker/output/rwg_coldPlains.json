@@ -10,8 +10,8 @@
   "Filler Block": "minecraft:dirt",
   "Actual Filler Block": "minecraft:stone",
   "Liquid Filler Block": "minecraft:water",
-  "Grass Color": "Not Set",
-  "Foliage Color": "Not Set",
+  "Grass Color": "Not set. Check in-game.",
+  "Foliage Color": "Not set. Check in-game.",
   "Water Color": "16777215",
   "Temperature": 0.2,
   "Humidity": 0.2,
@@ -22,6 +22,7 @@
     "COLD",
     "WASTELAND"
   ],
+  "BiomeManager Entries": {},
   "Spawnable Creatures": [
     {
       "Entity Class": "net.minecraft.entity.passive.EntitySheep",
@@ -111,6 +112,12 @@
     },
     {
       "Entity Class": "cofh.thermalfoundation.entity.monster.EntityBlizz",
+      "Weight": 10,
+      "Min Group Count": 1,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "cofh.thermalfoundation.entity.monster.EntityBasalz",
       "Weight": 10,
       "Min Group Count": 1,
       "Max Group Count": 4

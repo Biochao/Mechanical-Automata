@@ -1,7 +1,10 @@
 {
-    "copper": {
+    "poor-copper": {
         "template": "uniform",
-        "block": "ThermalFoundation:Ore",
+        "block": [
+            {"name": "Railcraft:ore", "metadata": 9, "weight":80},
+            {"name": "ThermalFoundation:Ore", "metadata": 0, "weight":20}
+        ],
         "clusterSize": 8,
         "numClusters": 10,
         "minHeight": 40,
@@ -17,9 +20,12 @@
             1
         ]
     },
-    "tin": {
+    "poor-tin": {
         "template": "uniform",
-        "block": {"name": "ThermalFoundation:Ore", "metadata": 1},
+        "block": [
+            {"name": "Railcraft:ore", "metadata": 10, "weight":80},
+            {"name": "ThermalFoundation:Ore", "metadata": 1, "weight":20}
+        ],
         "clusterSize": 8,
         "numClusters": 8,
         "minHeight": 20,
@@ -56,10 +62,10 @@
             1
         ]
     },
-    "lead": {
+    "poor-lead": {
         "template": "uniform",
         "block": [
-            {"name": "ThermalFoundation:Ore", "metadata": 3, "weight": 90},
+            {"name": "Railcraft:ore", "metadata": 11, "weight": 90},
             {"name": "ThermalFoundation:Ore", "metadata": 2, "weight": 10}
         ],
         "clusterSize": 8,

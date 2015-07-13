@@ -148,8 +148,34 @@
         "minHeight": 0,
         "maxHeight": 32,
         "retrogen": "true",
-        "biomeRestriction": "none",
-        "biomes": [],
+        "biomeRestriction": "blacklist",
+        "biomes": [
+            {"type": "dictionary", "entry": "WATER"},
+            {"type": "dictionary", "entry": "BEACH"}
+        ],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },
+	"river-gold": {
+        "template": "underfluid",
+        "block": [
+            {"name": "Railcraft:ore", "metadata": 8, "weight":80},
+            {"name": "gold_ore", "metadata": 0, "weight":20}
+        ],
+        "material": "minecraft:stone",
+        "clusterSize": 8,
+        "numClusters": 2,
+        "minHeight": 0,
+        "maxHeight": 32,
+        "retrogen": "true",
+        "biomeRestriction": "blacklist",
+        "biomes": [
+            {"type": "dictionary", "entry": "WATER"},
+            {"type": "dictionary", "entry": "BEACH"}
+        ],
         "dimensionRestriction": "blacklist",
         "dimensions": [
             -1,
@@ -160,13 +186,16 @@
         "template": "uniform",
         "block": "gold_ore",
         "material": "minecraft:stone",
-        "clusterSize": 8,
-        "numClusters": 2,
+        "clusterSize": 10,
+        "numClusters": 4,
         "minHeight": 0,
         "maxHeight": 32,
         "retrogen": "true",
-        "biomeRestriction": "none",
-        "biomes": [],
+        "biomeRestriction": "whitelist",
+        "biomes": [
+            {"type": "dictionary", "entry": "WATER"},
+            {"type": "dictionary", "entry": "BEACH"}
+        ],
         "dimensionRestriction": "blacklist",
         "dimensions": [
             -1,

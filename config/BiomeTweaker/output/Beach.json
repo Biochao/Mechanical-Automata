@@ -65,6 +65,18 @@
       "Weight": 5,
       "Min Group Count": 1,
       "Max Group Count": 1
+    },
+    {
+      "Entity Class": "com.nr.mod.entity.EntityNuclearMonster",
+      "Weight": 15,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "com.nr.mod.entity.EntityPaul",
+      "Weight": 0,
+      "Min Group Count": 1,
+      "Max Group Count": 1
     }
   ],
   "Spawnable Water Creatures": [

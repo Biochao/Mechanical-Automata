@@ -68,6 +68,18 @@
       "Max Group Count": 1
     },
     {
+      "Entity Class": "com.nr.mod.entity.EntityNuclearMonster",
+      "Weight": 15,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "com.nr.mod.entity.EntityPaul",
+      "Weight": 0,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
       "Entity Class": "cofh.thermalfoundation.entity.monster.EntityBlitz",
       "Weight": 10,
       "Min Group Count": 1,

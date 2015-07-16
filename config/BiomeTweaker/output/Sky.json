@@ -31,6 +31,12 @@
       "Weight": 10,
       "Min Group Count": 4,
       "Max Group Count": 4
+    },
+    {
+      "Entity Class": "com.nr.mod.entity.EntityPaul",
+      "Weight": 0,
+      "Min Group Count": 1,
+      "Max Group Count": 1
     }
   ],
   "Spawnable Water Creatures": [],

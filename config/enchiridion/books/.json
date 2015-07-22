@@ -1,0 +1,97 @@
+{
+  "book": [
+    {
+      "features": [
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "minecraft:fish 3",
+            "xPos": 113,
+            "yPos": 61,
+            "width": 32.0,
+            "height": 32.0
+          }
+        },
+        {
+          "type": "FeatureRecipe",
+          "properties": {
+            "ingredients": "dustWood:ThermalExpansion:material:514:slimeball",
+            "recipeType": "ShapelessOreRecipe",
+            "item": "ThermalExpansion:florb 0 {Fluid:\"liquidhelium\"}",
+            "xPos": 41,
+            "yPos": 104,
+            "width": 101.0,
+            "height": 50.5
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Lorem ipsum",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF66CDAA",
+            "xPos": 22,
+            "yPos": 33,
+            "width": 50.0,
+            "height": 50.0
+          }
+        },
+        {
+          "type": "FeatureResource",
+          "properties": {
+            "path": "enchiridion:textures/wiki/enchiridion_logo.png:2.5",
+            "xPos": 228,
+            "yPos": 15,
+            "width": 179.0,
+            "height": 76.0
+          }
+        },
+        {
+          "type": "FeatureJump",
+          "properties": {
+            "jumpTo": "2",
+            "texture": "",
+            "xPos": 112,
+            "yPos": 64,
+            "width": 35.0,
+            "height": 30.0
+          }
+        }
+      ],
+      "pageName": "Test\n"
+    },
+    {
+      "features": [
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Puffer Fish!",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 104,
+            "yPos": 85,
+            "width": 50.0,
+            "height": 50.0
+          }
+        }
+      ],
+      "pageName": ""
+    }
+  ],
+  "uniqueName": "",
+  "color": 16777215,
+  "showBackground": true,
+  "showArrows": true,
+  "showNumber": true,
+  "iconPass1": "",
+  "iconPass2": "",
+  "iconColorisePass1": false,
+  "iconColorisePass2": false,
+  "iconColorPass1": 0,
+  "iconColorPass2": 0,
+  "language": "en_US",
+  "displayName": "",
+  "displayInCreative": true
+}

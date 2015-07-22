@@ -64,8 +64,8 @@
       },
       {
         "_meta": 12,
-        "tool": "shovel",
-        "level": 4
+        "tool": "pickaxe",
+        "level": 2
       },
       {
         "_meta": 13,
@@ -75,7 +75,7 @@
       {
         "_meta": 14,
         "tool": "pickaxe",
-        "level": 3
+        "level": 4
       },
       {
         "_meta": 15,

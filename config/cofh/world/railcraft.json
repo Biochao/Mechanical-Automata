@@ -1,0 +1,45 @@
+{
+	"sulfur": {
+        "template": "underfluid",
+        "block": [
+            {"name": "Railcraft:ore", "metadata": 0, "weight": 90},
+			{"name": "ThermalFoundation:Ore", "metadata": 4, "weight": 10}
+        ],
+        "material": "stone",
+        "genFluid": "lava",
+        "clusterSize": 16,
+        "numClusters": 2,
+        "minHeight": 1,
+        "maxHeight": 30,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            1
+        ]
+    },
+	"saltpeter": {
+        "template": {"type": "cave", "generator": "stalactite", "ceiling": true},
+        "block": [
+            {"name": "Railcraft:ore", "metadata": 1}
+        ],
+        "material": "sandstone",
+		"genBody": "air",
+		"heightVariance": 4,
+        "numClusters": 2,
+        "minHeight": 5,
+		"heightMod": 5,
+		"sizeVariance": 4,
+        "retrogen": "false",
+        "biomeRestriction": "whitelist",
+        "biomes": [
+            {"type": "dictionary", "entry": "SANDY"},
+            {"type": "dictionary", "entry": "HOT"},
+        ],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            1
+        ]
+    }
+}

@@ -1,0 +1,60 @@
+{
+    "quartz": {
+        "template": "uniform",
+        "block": [
+            {"name": "QuartzPlus:oreQuartzPlus", "metadata": 0, "weight":90},
+            {"name": "appliedenergistics2:tile.OreQuartz", "metadata": 0, "weight":8},
+			{"name": "appliedenergistics2:tile.OreQuartzCharged", "metadata": 0, "weight":8}
+        ],
+        "material": "minecraft:stone",
+        "clusterSize": 32,
+        "numClusters": 3,
+		"chunkChance": 5,
+        "minHeight": 0,
+        "maxHeight": 128,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },
+	"rosequartz": {
+        "template": "uniform",
+        "block": "QuartzPlus:oreRoseQuartz",
+        "material": "minecraft:stone",
+        "clusterSize": 32,
+        "numClusters": 1,
+		"chunkChance": 5,
+        "minHeight": 0,
+        "maxHeight": 128,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },
+	"smokeyquartz": {
+        "template": "uniform",
+        "block": "QuartzPlus:oreSmokyQuartz",
+        "material": "minecraft:stone",
+        "clusterSize": 32,
+        "numClusters": 1,
+		"chunkChance": 5,
+        "minHeight": 0,
+        "maxHeight": 128,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    }
+}

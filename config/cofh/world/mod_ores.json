@@ -1,0 +1,91 @@
+{
+    //tConstruct Aluminum
+    "aluminum": {
+        "template": {"type": "underfluid", "generator": "stalagmite"},
+        "block": {
+            "name": "TConstruct:SearedBrick",
+            "metadata": 5
+        },
+        "material": "stone",
+		"genFluid": "lava",
+        "genBody": "air",
+		"heightVariance": 4,
+        "numClusters": 2,
+        "minHeight": 5,
+		"heightMod": 5,
+		"sizeVariance": 4,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },
+
+    //Apatite
+    "apatite": {
+        "template": "uniform",
+        "block": {
+            "name": "Forestry:resources",
+            "metadata": 0
+        },
+        "material": "minecraft:stone",
+        "clusterSize": 40,
+        "numClusters": 1,
+        "minHeight": 50,
+        "maxHeight": 128,
+        "retrogen": "false",
+        "biomeRestriction": "whitelist",
+        "biomes": [
+            {"type": "dictionary", "entry": "SANDY"},
+            {"type": "dictionary", "entry": "FOREST"},
+        ],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },
+    "arditegravel": {
+        "template": "uniform",
+        "block": {
+            "name": "TConstruct:SearedBrick",
+            "metadata": 2
+        },
+        "material": "netherrack",
+        "clusterSize": 2,
+        "numClusters": 10,
+        "minHeight": 0,
+        "maxHeight": 128,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            1
+        ]
+    },
+    "cobaltgravel": {
+        "template": {"type": "underfluid", "generator": "boulder"},
+        "block": {
+            "name": "TConstruct:SearedBrick",
+            "metadata": 1
+        },
+        "material": "gravel",
+		"genFluid": "water",
+		"clusterSize": 2,
+		"count": 1,
+		"hollow": "false",
+		"sizeVariance": 2,
+		"chunkChance": 250,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            1
+        ]
+    }
+}

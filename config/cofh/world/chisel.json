@@ -1,0 +1,96 @@
+{
+//Chisel 2
+    "marble": {
+        "template": {"type": "uniform", "generator": "large-vein", "sparse": "false"},
+        "block": "chisel:marble",
+		"material": "minecraft:stone",
+        "clusterSize": 100,
+        "numClusters": 1,
+		"chunkChance": 50,
+        "minHeight": 0,
+        "maxHeight": 128,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },
+    "limestone": {
+        "template": {"type": "uniform", "generator": "large-vein", "sparse": "false"},
+        "block": [
+            {"name": "chisel:limestone", "metadata": 0, "weight": 90},
+			{"name": "harvestcraft:salt", "metadata": 0, "weight": 10}
+        ],
+		"material": "minecraft:stone",
+        "clusterSize": 100,
+        "numClusters": 1,
+		"chunkChance": 50,
+        "minHeight": 0,
+        "maxHeight": 128,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },
+    "andesite": {
+        "template": {"type": "uniform", "generator": "large-vein", "sparse": "false"},
+        "block": "chisel:andesite",
+        "material": "minecraft:stone",
+        "clusterSize": 50,
+		"numClusters": 1,
+		"chunkChance": 10,
+        "minHeight": 0,
+        "maxHeight": 256,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },
+    "granite": {
+        "template": {"type": "uniform", "generator": "large-vein", "sparse": "false"},
+        "block": "chisel:granite",
+        "material": "minecraft:stone",
+        "clusterSize": 50,
+		"numClusters": 1,
+		"chunkChance": 10,
+        "minHeight": 0,
+        "maxHeight": 256,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },
+    "diorite": {
+        "template": {"type": "uniform", "generator": "large-vein", "sparse": "false"},
+        "block": "chisel:diorite",
+        "material": "minecraft:stone",
+        "clusterSize": 50,
+		"numClusters": 1,
+		"chunkChance": 10,
+        "minHeight": 0,
+        "maxHeight": 256,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    }
+}

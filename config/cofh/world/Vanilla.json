@@ -42,11 +42,8 @@
         "minHeight": 64,
         "maxHeight": 128,
         "retrogen": "true",
-        "biomeRestriction": "blacklist",
-        "biomes": [
-            {"type": "dictionary", "entry": "PLAINS"},
-            {"type": "dictionary", "entry": "SWAMP"}
-        ],
+        "biomeRestriction": "none",
+        "biomes": [],
         "dimensionRestriction": "blacklist",
         "dimensions": [
             -1,
@@ -57,12 +54,12 @@
         "template": "uniform",
         "block": "coal_ore",
         "material": "stone",
-        "clusterSize": 16,
-        "numClusters": 20,
+        "clusterSize": 5,
+        "numClusters": 5,
         "minHeight": 0,
-        "maxHeight": 128,
+        "maxHeight": 30,
         "retrogen": "true",
-        "biomeRestriction": "whitelist",
+        "biomeRestriction": "blacklist",
         "biomes": [
             {"type": "dictionary", "entry": "PLAINS"},
             {"type": "dictionary", "entry": "SWAMP"}
@@ -75,12 +72,15 @@
     },
 	"rich-coal": {
         "template": "uniform",
-        "block": "coal_block",
-        "material": "coal_ore",
-        "clusterSize": 1,
-        "numClusters": 5,
+        "block": [
+            {"name": "coal_ore", "metadata": 7, "weight":90},
+            {"name": "coal_block", "metadata": 0, "weight":10}
+        ],
+        "material": "stone",
+        "clusterSize": 25,
+        "numClusters": 20,
         "minHeight": 0,
-        "maxHeight": 128,
+        "maxHeight": 60,
         "retrogen": "true",
         "biomeRestriction": "whitelist",
         "biomes": [
@@ -96,12 +96,12 @@
 	"poor-iron": {
         "template": "uniform",
         "block": [
-            {"name": "Railcraft:ore", "metadata": 7, "weight":80},
-            {"name": "iron_ore", "metadata": 0, "weight":20}
+            {"name": "Railcraft:ore", "metadata": 7, "weight":70},
+            {"name": "iron_ore", "metadata": 0, "weight":30}
         ],
         "material": "minecraft:stone",
-        "clusterSize": 8,
-        "numClusters": 20,
+        "clusterSize": 20,
+        "numClusters": 5,
         "minHeight": 0,
         "maxHeight": 64,
         "retrogen": "true",
@@ -118,10 +118,14 @@
     },
 	"rich-iron": {
         "template": "uniform",
-        "block": "iron_ore",
+        "block": [
+            {"name": "iron_ore", "metadata": 0, "weight":80},
+			{"name": "TConstruct:SearedBrick", "metadata": 5, "weight":15},
+            {"name": "ThermalFoundation:Ore", "metadata": 4, "weight":5}
+        ],
         "material": "minecraft:stone",
-        "clusterSize": 8,
-        "numClusters": 20,
+        "clusterSize": 20,
+        "numClusters": 15,
         "minHeight": 0,
         "maxHeight": 64,
         "retrogen": "true",
@@ -137,20 +141,20 @@
         ]
     },
     "poor-gold": {
-        "template": "uniform",
+        "template": {"type": "fractal", "generator": "large-vein", "sparse": true},
         "block": [
-            {"name": "Railcraft:ore", "metadata": 8, "weight":80},
-            {"name": "gold_ore", "metadata": 0, "weight":20}
+            {"name": "Railcraft:ore", "metadata": 8, "weight":70},
+            {"name": "gold_ore", "metadata": 0, "weight":30}
         ],
         "material": "minecraft:stone",
-        "clusterSize": 8,
-        "numClusters": 2,
+        "clusterSize": 20,
+        "numClusters": 3,
         "minHeight": 0,
         "maxHeight": 32,
         "retrogen": "true",
         "biomeRestriction": "blacklist",
         "biomes": [
-            {"type": "dictionary", "entry": "WATER"},
+            {"type": "dictionary", "entry": "RIVER"},
             {"type": "dictionary", "entry": "BEACH"}
         ],
         "dimensionRestriction": "blacklist",
@@ -162,18 +166,17 @@
 	"river-gold": {
         "template": "underfluid",
         "block": [
-            {"name": "Railcraft:ore", "metadata": 8, "weight":80},
-            {"name": "gold_ore", "metadata": 0, "weight":20}
+            {"name": "TConstruct:GravelOre", "metadata": 1}
         ],
-        "material": "minecraft:stone",
-        "clusterSize": 8,
-        "numClusters": 2,
-        "minHeight": 0,
-        "maxHeight": 32,
+        "material": "minecraft:gravel",
+        "clusterSize": 5,
+        "numClusters": 8,
+        "minHeight": 50,
+        "maxHeight": 70,
         "retrogen": "true",
-        "biomeRestriction": "blacklist",
+        "biomeRestriction": "whitelist",
         "biomes": [
-            {"type": "dictionary", "entry": "WATER"},
+            {"type": "dictionary", "entry": "RIVER"},
             {"type": "dictionary", "entry": "BEACH"}
         ],
         "dimensionRestriction": "blacklist",
@@ -187,7 +190,7 @@
         "block": "gold_ore",
         "material": "minecraft:stone",
         "clusterSize": 10,
-        "numClusters": 4,
+        "numClusters": 6,
         "minHeight": 0,
         "maxHeight": 32,
         "retrogen": "true",
@@ -202,17 +205,37 @@
             1
         ]
     },
-    "redstone": {
+	"poor-redstone": {
         "template": "uniform",
         "block": "redstone_ore",
         "material": "minecraft:stone",
-        "clusterSize": 7,
-        "numClusters": 8,
-        "minHeight": 0,
-        "maxHeight": 16,
-        "retrogen": "true",
+        "clusterSize": 1,
+        "numClusters": 5,
+        "maxHeight": 28,
+        "minHeight": 16,
+        "retrogen": "false",
         "biomeRestriction": "none",
         "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },
+    "rich-redstone": {
+        "template": "uniform",
+        "block": "redstone_ore",
+        "material": "minecraft:stone",
+        "clusterSize": 20,
+        "numClusters": 10,
+        "maxHeight": 56,
+        "minHeight": 16,
+        "retrogen": "false",
+        "biomeRestriction": "whitelist",
+        "biomes": [
+            {"type": "dictionary", "entry": "SANDY"},
+            {"type": "dictionary", "entry": "BEACH"}
+        ],
         "dimensionRestriction": "blacklist",
         "dimensions": [
             -1,
@@ -223,10 +246,31 @@
         "template": "uniform",
         "block": "diamond_ore",
         "material": "minecraft:stone",
-        "clusterSize": 7,
+        "clusterSize": 5,
         "numClusters": 1,
         "minHeight": 0,
-        "maxHeight": 16,
+        "maxHeight": 5,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },
+	"rich-diamond": {
+        "template": {"type": "fractal", "generator": "large-vein", "sparse": false},
+        "block": "diamond_ore",
+        "material": "minecraft:stone",
+        "clusterSize": 8,
+        "numClusters": 120,
+        "chunkChance": 500,
+        "minHeight": 0,
+        "veinHeight": 40,
+        "veinDiameter": 48,
+        "verticalDensity": 15,
+        "horizontalDensity": 15,
         "retrogen": "true",
         "biomeRestriction": "none",
         "biomes": [],
@@ -240,13 +284,37 @@
         "template": "normal",
         "block": "lapis_ore",
         "material": "minecraft:stone",
-        "clusterSize": 6,
+        "clusterSize": 2,
         "numClusters": 1,
         "meanHeight": 16,
         "maxVariance": 16,
         "retrogen": "true",
         "biomeRestriction": "none",
         "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },
+	"rich-lapis": {
+        "template": "normal",
+        "block": [
+            {"name": "lapis_ore", "metadata": 0, "weight":70},
+            {"name": "lapis_block", "metadata": 0, "weight":30}
+        ],
+        "material": "minecraft:stone",
+        "clusterSize": 50,
+        "numClusters": 3,
+        "meanHeight": 30,
+        "maxVariance": 30,
+		"chunkChance": 100,
+        "retrogen": "true",
+        "biomeRestriction": "whitelist",
+        "biomes": [
+            {"type": "dictionary", "entry": "MOUNTAIN"},
+            {"type": "dictionary", "entry": "HILLS"}
+        ],
         "dimensionRestriction": "blacklist",
         "dimensions": [
             -1,

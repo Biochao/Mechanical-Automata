@@ -1,0 +1,53 @@
+{
+	"name" : "tower",
+	"tower" : {
+        "type" : "ENIKO",
+        "theme" : {
+            "base" : "NETHER",
+            "primary": {
+					"walls" : {
+                        "type" : "WEIGHTED", 
+                        "data" : [
+                            {"type" : "METABLOCK", "data" : {"name" : "Railcraft:brick.infernal", "meta" : 1}, "weight" : 80},
+                            {"type" : "METABLOCK", "data" : {"name" : "Railcraft:brick.infernal", "meta" : 2}, "weight" : 15},
+                            {"type" : "METABLOCK", "data" : {"name" : "Railcraft:brick.infernal", "meta" : 4}, "weight" : 1},
+                            {"type" : "METABLOCK", "data" : {"name" : "Railcraft:brick.infernal", "meta" : 5}, "weight" : 4}
+                        ]
+                    },
+					"pillar" : {
+						"type" : "METABLOCK",
+						"data" : {
+							"name" : "chisel:voidstonePillar2"
+						}
+					},
+					"stair" : {
+						"type" : "METABLOCK",
+						"data" : {
+							"name" : "minecraft:nether_brick_stairs"
+						}
+					}
+				},
+				"secondary": {
+					"walls" : {
+                        "type" : "WEIGHTED", 
+                        "data" : [
+                            {"type" : "METABLOCK", "data" : {"name" : "Railcraft:brick.nether", "meta" : 2}, "weight" : 70},
+                            {"type" : "METABLOCK", "data" : {"name" : "Railcraft:brick.nether", "meta" : 5}, "weight" : 30}
+                        ]
+                    },
+					"pillar" : {
+						"type" : "METABLOCK",
+						"data" : {
+							"name" : "chisel:voidstonePillar2"
+						}
+					},
+					"stair" : {
+						"type" : "METABLOCK",
+						"data" : {
+							"name" : "minecraft:nether_brick_stairs"
+						}
+					}
+				}
+        }
+    }
+}

@@ -1,0 +1,8 @@
+{
+	"name" : "spawn",
+	"criteria" : {},
+	"inherit" : [
+		"tower",
+		"ionian"
+	]
+}

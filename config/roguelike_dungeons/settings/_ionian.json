@@ -1,0 +1,248 @@
+{
+	"name" : "ionian",
+	"levels" : {
+		"0" : {
+			"theme": {
+				"base" : "NETHER",
+				"primary": {
+					"walls" : {
+						"type" : "METABLOCK",
+						"data" : {
+							"name" : "Railcraft:brick.nether",
+							"meta" : 5
+						}
+					},
+					"pillar" : {
+						"type" : "METABLOCK",
+						"data" : {
+							"name" : "Railcraft:brick.nether",
+							"meta" : 2
+						}
+					},
+					"stair" : {
+						"type" : "METABLOCK",
+						"data" : {
+							"name" : "minecraft:nether_brick_stairs"
+						}
+					}
+				},
+				"secondary": {
+					"walls" : {
+						"type" : "METABLOCK",
+						"data" : {
+							"name" : "Railcraft:brick.abyssal"
+						}
+					},
+					"pillar" : {
+						"type" : "METABLOCK",
+						"data" : {
+							"name" : "Railcraft:brick.abyssal",
+							"meta" : 2
+						}
+					},
+					"stair" : {
+						"type" : "METABLOCK",
+						"data" : {
+							"name" : "appliedenergistics2:tile.SkyStoneStairBlock"
+						}
+					}
+				}
+			}
+		},
+		"1" : {
+			"theme": {
+				"base" : "NETHER",
+				"primary": {
+					"walls" : {
+						"type" : "METABLOCK",
+						"data" : {
+							"name" : "chisel:factoryblock",
+							"meta" : 5
+						}
+					},
+					"pillar" : {
+						"type" : "METABLOCK",
+						"data" : {
+							"name" : "chisel:factoryblock",
+							"meta" : 9
+						}
+					},
+					"stair" : {
+						"type" : "METABLOCK",
+						"data" : {
+							"name" : "appliedenergistics2:tile.SkyStoneBlockStairBlock"
+						}
+					}
+				},
+				"secondary": {
+					"walls" : {
+						"type" : "METABLOCK",
+						"data" : {
+							"name" : "chisel:technical"
+						}
+					},
+					"pillar" : {
+						"type" : "METABLOCK",
+						"data" : {
+							"name" : "chisel:technical",
+							"meta" : 12
+						}
+					},
+					"stair" : {
+						"type" : "METABLOCK",
+						"data" : {
+							"name" : "appliedenergistics2:tile.SkyStoneBrickStairBlock"
+						}
+					}
+				}
+			}
+		},
+		"2" : {
+			"theme": {
+				"base" : "NETHER",
+				"primary" : {
+					"walls" : {
+						"type" : "WEIGHTED", 
+                        "data" : [
+                            {"type" : "METABLOCK", "data" : {"name" : "Railcraft:brick.quarried", "meta" : 5}, "weight" : 80},
+                            {"type" : "METABLOCK", "data" : {"name" : "minecraft:quartz_block"}, "weight" : 10},
+                            {"type" : "METABLOCK", "data" : {"name" : "appliedenergistics2:tile.BlockQuartz"}, "weight" : 10}
+                        ]
+					},
+					"pillar" : {
+						"type" : "METABLOCK",
+						"data" : {
+							"name" : "minecraft:obsidian",
+							"meta" : 0
+						}
+					},
+					"stair" : {
+						"type" : "METABLOCK",
+						"data" : {
+							"name" : "minecraft:nether_brick_stairs"
+						}
+					}
+				},
+				"secondary" : {
+					"walls" : {
+						"type" : "METABLOCK",
+						"data" : {
+							"name" : "minecraft:obsidian"
+						}
+					},
+					"pillar" : {
+						"type" : "METABLOCK",
+						"data" : {
+							"name" : "appliedenergistics2:tile.BlockQuartzPillar"
+						}
+					},
+					"stair" : {
+						"type" : "METABLOCK",
+						"data" : {
+							"name" : "minecraft:nether_brick_stairs"
+						}
+					}
+				}
+			}
+		},
+		"3" : {
+			"theme" : {
+				"base" : "NETHER",
+				"primary" : {
+					"walls" : {
+						"type" : "WEIGHTED", 
+                        "data" : [
+                            {"type" : "METABLOCK", "data" : {"name" : "Railcraft:brick.infernal", "meta" : 5}, "weight" : 80},
+                            {"type" : "METABLOCK", "data" : {"name" : "Railcraft:brick.abyssal", "meta" : 5}, "weight" : 10},
+                            {"type" : "METABLOCK", "data" : {"name" : "MineFactoryReloaded:stone", "meta" : 2}, "weight" : 10}
+                        ]
+					},
+					"pillar" : {
+						"type" : "METABLOCK",
+							"data" : {
+								"name" : "minecraft:netherrack"
+							}
+					},
+					"stair" : {
+						"type" : "METABLOCK",
+						"data" : {
+							"name" : "minecraft:nether_brick_stairs"
+						}
+					}
+				},
+				"secondary": {
+					"walls" : {
+						"type" : "METABLOCK",
+						"data" : {
+							"name" : "TConstruct:SmelteryNether",
+							"meta" : 5
+						}
+					},
+					"pillar" : {
+						"type": "METABLOCK",
+    					"data": {
+    						"name" : "chisel:redstone_block",
+    						"meta" : 10
+    					}
+					},
+					"stair" : {
+						"type" : "METABLOCK",
+						"data" : {
+							"name" : "minecraft:nether_brick_stairs"
+						}
+					}
+				}
+			}
+		},
+		"4" : {
+			"theme": {
+				"base" : "NETHER",
+				"primary": {
+					"walls" : {
+						"type" : "WEIGHTED", 
+                        "data" : [
+                            {"type" : "METABLOCK", "data" : {"name" : "chisel:voidstone2", "meta" : 3}, "weight" : 90},
+                            {"type" : "METABLOCK", "data" : {"name" : "chisel:voidstone2", "meta" : 4}, "weight" : 5},
+                            {"type" : "METABLOCK", "data" : {"name" : "chisel:voidstone2", "meta" : 6}, "weight" : 5}
+                        ]
+					},
+					"pillar" : {
+						"type" : "METABLOCK",
+						"data" : {
+							"name" : "ExtraUtilities:color_blockCoal",
+							"meta" : 14
+						}
+					},
+					"stair" : {
+						"type" : "METABLOCK",
+						"data" : {
+							"name" : "minecraft:nether_brick_stairs"
+						}
+					}
+				},
+				"secondary": {
+					"walls" : {
+						"type" : "METABLOCK",
+						"data" : {
+							"name" : "minecraft:netherrack",
+							"meta" : 0
+						}
+					},
+					"pillar" : {
+						"type" : "METABLOCK",
+						"data" : {
+							"name" : "ExtraUtilities:color_hellsand",
+							"meta" : 14
+						}
+					},
+					"stair" : {
+						"type" : "METABLOCK",
+						"data" : {
+							"name" : "appliedenergistics2:tile.FluixStairBlock"
+						}
+					}
+				}
+			}
+		}
+	}
+}

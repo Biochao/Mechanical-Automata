@@ -1,0 +1,54 @@
+{
+    "name": "floor3",
+    "levels": {
+		"3" : {
+			"theme" : {
+				"base" : "NETHER",
+				"primary" : {
+					"walls" : {
+						"type" : "WEIGHTED", 
+                        "data" : [
+                            {"type" : "METABLOCK", "data" : {"name" : "Railcraft:brick.infernal", "meta" : 5}, "weight" : 80},
+                            {"type" : "METABLOCK", "data" : {"name" : "Railcraft:brick.abyssal", "meta" : 5}, "weight" : 10},
+                            {"type" : "METABLOCK", "data" : {"name" : "MineFactoryReloaded:stone", "meta" : 2}, "weight" : 10}
+                        ]
+					},
+					"pillar" : {
+						"type" : "METABLOCK",
+							"data" : {
+								"name" : "minecraft:obsidian"
+							}
+					},
+					"stair" : {
+						"type" : "METABLOCK",
+						"data" : {
+							"name" : "minecraft:nether_brick_stairs"
+						}
+					}
+				},
+				"secondary": {
+					"walls" : {
+						"type" : "METABLOCK",
+						"data" : {
+							"name" : "TConstruct:SmelteryNether",
+							"meta" : 5
+						}
+					},
+					"pillar" : {
+						"type": "METABLOCK",
+    					"data": {
+    						"name" : "chisel:redstone_block",
+    						"meta" : 10
+    					}
+					},
+					"stair" : {
+						"type" : "METABLOCK",
+						"data" : {
+							"name" : "minecraft:nether_brick_stairs"
+						}
+					}
+				}
+			}
+		}
+	}
+}

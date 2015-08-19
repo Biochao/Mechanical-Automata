@@ -1,0 +1,27 @@
+{
+    "name": "loot",
+    "levels": {
+        "all": {
+            "loot": {
+                "JUNK": [
+                    {
+                        "weight": 20,
+                        "data": {
+                            "name": "minecraft:torch",
+                            "min": 1,
+                            "max": 24
+                        }
+                    },
+                    {
+                        "weight": 5,
+                        "data": {
+                            "name": "minecraft:wheat_seeds",
+                            "min": 1,
+                            "max": 8
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

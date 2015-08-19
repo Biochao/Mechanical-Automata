@@ -13,6 +13,6 @@
   "InvertedDimensionFilter": false,
   "InvertedLightLevelChecking": false,
   "mobFilter": "(\bSlime\b)",
-  "dimensionFilter": "(\bThe End\b)|(\bNether\b)",
+  "dimensionFilter": "(\bDIM0\b)",
   "LightLevel": 0
 }

@@ -7,91 +7,6 @@
     ],
 	"blocks":[
 		{
-			"name": "Diorite",
-			"textureName": "stone_diorite",
-
-			"toolClass": "pickaxe",
-            "material": "rock",
-            "resistance": 30,
-            "harvestLevel": 0,
-            "hardness": 1.5,
-
-            "creativeTab": "1.8 Stuff"
-		},
-		{
-			"name": "Polished Diorite",
-			"textureName": "stone_diorite_smooth",
-
-			"toolClass": "pickaxe",
-            "material": "rock",
-            "resistance": 30,
-            "harvestLevel": 0,
-            "hardness": 1.5,
-
-            "creativeTab": "1.8 Stuff"
-		},
-		{
-			"name": "Andesite",
-			"textureName": "stone_andesite",
-
-			"toolClass": "pickaxe",
-            "material": "rock",
-            "resistance": 30,
-            "harvestLevel": 0,
-            "hardness": 1.5,
-
-            "creativeTab": "1.8 Stuff"
-		},
-		{
-			"name": "Polished Andesite",
-			"textureName": "stone_andesite_smooth",
-
-			"toolClass": "pickaxe",
-            "material": "rock",
-            "resistance": 30,
-            "harvestLevel": 0,
-            "hardness": 1.5,
-
-            "creativeTab": "1.8 Stuff"
-		},
-		{
-			"name": "Granite",
-			"textureName": "stone_granite",
-
-			"toolClass": "pickaxe",
-            "material": "rock",
-            "resistance": 30,
-            "harvestLevel": 0,
-            "hardness": 1.5,
-
-            "creativeTab": "1.8 Stuff"
-		},
-		{
-			"name": "Polished Granite",
-			"textureName": "stone_granite_smooth",
-
-			"toolClass": "pickaxe",
-            "material": "rock",
-            "resistance": 30,
-            "harvestLevel": 0,
-            "hardness": 1.5,
-
-            "creativeTab": "1.8 Stuff"
-		},
-		{
-			"name": "Coarse Dirt",
-			"textureName": "coarse_dirt",
-
-			"toolClass": "shovel",
-            "material": "grass",
-            "stepSound": "grass",
-            "resistance": 2.5,
-            "harvestLevel": 0,
-            "hardness": 0.5,
-
-            "creativeTab": "1.8 Stuff"
-		},
-		{
 			"name": "Red Sandstone",
 			"multipleTextures": {
                 "xpos": "red_sandstone_normal",
@@ -331,28 +246,6 @@
             "name": "Prismarine Shard",
             "textureName": "prismarine_shard",
 			"maxStackSize": 64,
-
-            "creativeTab": "1.8 Stuff"
-		}
-	],
-
-	"foods":[
-		{
-			"name": "Raw Mutton",
-            "textureName": "mutton_raw",
-			"maxStackSize": 64,
-			"healAmount": 2,
-			"saturationModifier": 1.2,
-
-            "creativeTab": "1.8 Stuff"
-		},
-		{
-			"name": "Cooked Mutton",
-            "textureName": "mutton_cooked",
-			"maxStackSize": 64,
-			"healAmount": 6,
-			"saturationModifier": 9.6,
-			"isWolfFood": true,
 
             "creativeTab": "1.8 Stuff"
 		}

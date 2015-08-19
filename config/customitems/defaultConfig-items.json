@@ -1,11 +1,4 @@
 {
-    "items": [
-        {
-            "maxStackSize": 16,
-            "textureName": "coin2",
-            "name": "Coin"            
-        }
-    ],
     "foods": [
         {
             "maxStackSize": 64,
@@ -25,11 +18,11 @@
         {
             "name": "God Sword",
             "textureName": "godsword",
-            "maxUses": 10,
+            "maxUses": 9001,
             "harvestLevel": 0,
             "efficiencyOnProperMaterial": 10,
             "enchantability": 0,            
-            "damageVsEntity": 10000
+            "damageVsEntity": 8997
         }
     ],
     "changeItems": [

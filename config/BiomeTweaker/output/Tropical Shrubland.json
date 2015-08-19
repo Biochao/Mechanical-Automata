@@ -1,9 +1,9 @@
 
 {
-  "ID": 146,
-  "Name": "Tundra",
-  "Class": "ttftcuts.atg.biome.ATGBiomeGenTundra",
-  "Color": 8762028,
+  "ID": 145,
+  "Name": "Tropical Shrubland",
+  "Class": "ttftcuts.atg.biome.ATGBiomeGenTropicalShrubland",
+  "Color": 10913552,
   "Root Height": 0.1,
   "Height Variation": 0.2,
   "Top Block": "minecraft:grass",
@@ -13,16 +13,16 @@
   "Grass Color": "Not set. Check in-game.",
   "Foliage Color": "Not set. Check in-game.",
   "Water Color": "16777215",
-  "Temperature": 0.05,
-  "Humidity": 0.65,
+  "Temperature": 1.175,
+  "Humidity": 0.45,
   "Water Tint": 16777215,
   "Enable Rain": true,
-  "Enable Snow": true,
+  "Enable Snow": false,
   "Dictionary Types": [
-    "COLD",
-    "DRY",
-    "SNOWY",
-    "WASTELAND"
+    "HOT",
+    "WET",
+    "JUNGLE",
+    "FOREST"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [
@@ -101,16 +101,10 @@
       "Max Group Count": 20
     },
     {
-      "Entity Class": "cofh.thermalfoundation.entity.monster.EntityBlizz",
-      "Weight": 10,
-      "Min Group Count": 1,
-      "Max Group Count": 4
-    },
-    {
-      "Entity Class": "cofh.thermalfoundation.entity.monster.EntityBasalz",
-      "Weight": 10,
-      "Min Group Count": 1,
-      "Max Group Count": 4
+      "Entity Class": "tconstruct.world.entity.BlueSlime",
+      "Weight": 1,
+      "Min Group Count": 4,
+      "Max Group Count": 20
     }
   ],
   "Spawnable Water Creatures": [

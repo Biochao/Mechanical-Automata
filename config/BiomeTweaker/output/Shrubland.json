@@ -1,11 +1,11 @@
 
 {
-  "ID": 53,
+  "ID": 142,
   "Name": "Shrubland",
-  "Class": "extrabiomes.module.summa.biome.BiomeShrubland",
-  "Color": 5354877,
-  "Root Height": 0.2,
-  "Height Variation": 0.1,
+  "Class": "ttftcuts.atg.biome.ATGBiomeGenShrubland",
+  "Color": 6263115,
+  "Root Height": 0.1,
+  "Height Variation": 0.2,
   "Top Block": "minecraft:grass",
   "Filler Block": "minecraft:dirt",
   "Actual Filler Block": "minecraft:stone",
@@ -13,19 +13,15 @@
   "Grass Color": "Not set. Check in-game.",
   "Foliage Color": "Not set. Check in-game.",
   "Water Color": "16777215",
-  "Temperature": 0.4,
-  "Humidity": 0.6,
+  "Temperature": 0.77,
+  "Humidity": 0.53,
   "Water Tint": 16777215,
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
     "PLAINS"
   ],
-  "BiomeManager Entries": {
-    "COOL Weights": [
-      10
-    ]
-  },
+  "BiomeManager Entries": {},
   "Spawnable Creatures": [
     {
       "Entity Class": "net.minecraft.entity.passive.EntitySheep",
@@ -50,12 +46,6 @@
       "Weight": 8,
       "Min Group Count": 4,
       "Max Group Count": 4
-    },
-    {
-      "Entity Class": "net.minecraft.entity.passive.EntityHorse",
-      "Weight": 6,
-      "Min Group Count": 1,
-      "Max Group Count": 5
     }
   ],
   "Spawnable Monsters": [

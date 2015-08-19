@@ -1,56 +1,29 @@
 
 {
-  "ID": 146,
-  "Name": "Tundra",
-  "Class": "ttftcuts.atg.biome.ATGBiomeGenTundra",
-  "Color": 8762028,
-  "Root Height": 0.1,
-  "Height Variation": 0.2,
+  "ID": 147,
+  "Name": "Volcano",
+  "Class": "ttftcuts.atg.biome.ATGBiomeGenVolcano",
+  "Color": 3156261,
+  "Root Height": 0.9,
+  "Height Variation": 1.0,
   "Top Block": "minecraft:grass",
-  "Filler Block": "minecraft:dirt",
+  "Filler Block": "minecraft:stone",
   "Actual Filler Block": "minecraft:stone",
   "Liquid Filler Block": "minecraft:water",
   "Grass Color": "Not set. Check in-game.",
   "Foliage Color": "Not set. Check in-game.",
   "Water Color": "16777215",
-  "Temperature": 0.05,
-  "Humidity": 0.65,
+  "Temperature": 2.0,
+  "Humidity": 0.0,
   "Water Tint": 16777215,
   "Enable Rain": true,
-  "Enable Snow": true,
+  "Enable Snow": false,
   "Dictionary Types": [
-    "COLD",
-    "DRY",
-    "SNOWY",
+    "MOUNTAIN",
     "WASTELAND"
   ],
   "BiomeManager Entries": {},
-  "Spawnable Creatures": [
-    {
-      "Entity Class": "net.minecraft.entity.passive.EntitySheep",
-      "Weight": 12,
-      "Min Group Count": 4,
-      "Max Group Count": 4
-    },
-    {
-      "Entity Class": "net.minecraft.entity.passive.EntityPig",
-      "Weight": 10,
-      "Min Group Count": 4,
-      "Max Group Count": 4
-    },
-    {
-      "Entity Class": "net.minecraft.entity.passive.EntityChicken",
-      "Weight": 10,
-      "Min Group Count": 4,
-      "Max Group Count": 4
-    },
-    {
-      "Entity Class": "net.minecraft.entity.passive.EntityCow",
-      "Weight": 8,
-      "Min Group Count": 4,
-      "Max Group Count": 4
-    }
-  ],
+  "Spawnable Creatures": [],
   "Spawnable Monsters": [
     {
       "Entity Class": "net.minecraft.entity.monster.EntitySpider",
@@ -101,10 +74,10 @@
       "Max Group Count": 20
     },
     {
-      "Entity Class": "cofh.thermalfoundation.entity.monster.EntityBlizz",
-      "Weight": 10,
-      "Min Group Count": 1,
-      "Max Group Count": 4
+      "Entity Class": "tconstruct.world.entity.BlueSlime",
+      "Weight": 1,
+      "Min Group Count": 4,
+      "Max Group Count": 20
     },
     {
       "Entity Class": "cofh.thermalfoundation.entity.monster.EntityBasalz",

@@ -2,12 +2,12 @@
     "quartz": {
         "template": "uniform",
         "block": [
-            {"name": "QuartzPlus:oreQuartzPlus", "metadata": 0, "weight":90},
-            {"name": "appliedenergistics2:tile.OreQuartz", "metadata": 0, "weight":8},
-			{"name": "appliedenergistics2:tile.OreQuartzCharged", "metadata": 0, "weight":8}
+            {"name": "QuartzPlus:oreQuartzPlus", "metadata": 0, "weight":70},
+            {"name": "appliedenergistics2:tile.OreQuartz", "metadata": 0, "weight":20},
+			{"name": "appliedenergistics2:tile.OreQuartzCharged", "metadata": 0, "weight":10}
         ],
         "material": "minecraft:stone",
-        "clusterSize": 32,
+        "clusterSize": 24,
         "numClusters": 3,
 		"chunkChance": 5,
         "minHeight": 0,
@@ -25,7 +25,7 @@
         "template": "uniform",
         "block": "QuartzPlus:oreRoseQuartz",
         "material": "minecraft:stone",
-        "clusterSize": 32,
+        "clusterSize": 24,
         "numClusters": 1,
 		"chunkChance": 5,
         "minHeight": 0,
@@ -43,7 +43,7 @@
         "template": "uniform",
         "block": "QuartzPlus:oreSmokyQuartz",
         "material": "minecraft:stone",
-        "clusterSize": 32,
+        "clusterSize": 24,
         "numClusters": 1,
 		"chunkChance": 5,
         "minHeight": 0,

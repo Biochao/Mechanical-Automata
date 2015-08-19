@@ -9,7 +9,7 @@
         "genFluid": "lava",
         "clusterSize": 16,
         "numClusters": 2,
-        "minHeight": 1,
+        "minHeight": 0,
         "maxHeight": 30,
         "retrogen": "false",
         "biomeRestriction": "none",

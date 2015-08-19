@@ -10,7 +10,19 @@
     "tool_data": []
   },
   "break_speed": [],
-  "drops": [],
+  "drops": [
+  {
+      "function": "if_metadata_3",
+      "functions": [
+        {
+          "_comment": "make Jungle Leaves drop Harvestcraft Bananas",
+          "function": "add",
+          "id": "harvestcraft:bananaItem",
+          "count": 0.10
+        }
+      ]
+    }
+  ],
   "harvest": [],
   "xp": []
 }

@@ -1,0 +1,34 @@
+{
+  "components": [
+    {
+      "type": "ElementText",
+      "properties": {
+        "text": "Welcome to",
+        "color": -1,
+        "x": 165,
+        "y": -5,
+        "width": 272,
+        "height": 32,
+        "size": 7.4999948
+      }
+    },
+    {
+      "type": "ElementText",
+      "properties": {
+        "text": "Mechanical Automata",
+        "color": -1,
+        "x": 33,
+        "y": 79,
+        "width": 445,
+        "height": 38,
+        "size": 6.6999955
+      }
+    }
+  ],
+  "scrollMax": 0,
+  "isPriority": false,
+  "backgroundColor": -301989888,
+  "name": "Welcome",
+  "canEdit": false,
+  "saveDir": ""
+}

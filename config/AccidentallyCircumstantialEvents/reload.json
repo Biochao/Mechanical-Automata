@@ -1,0 +1,14 @@
+{
+    "events":
+            [
+                {
+                    "event_type": "CHAT",
+                    "text": "RELOAD",
+                    "tasks": [
+                        {
+                            "task_type": "RELOAD"
+                        }
+                    ]
+                }
+            ]
+}

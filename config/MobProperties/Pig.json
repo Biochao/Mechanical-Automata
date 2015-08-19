@@ -1,6 +1,18 @@
 {
   "_name": "Pig",
-  "drops": [],
+  "drops": [
+    {
+      "function": "all",
+      "functions": [
+        {
+          "_comment": "make animals drop realistic amounts of meat",
+          "function": "add",
+          "id": "porkchop",
+          "count": 5~20
+        }
+      ]
+    }
+  ],
   "pre_stats": [],
   "stats": []
 }

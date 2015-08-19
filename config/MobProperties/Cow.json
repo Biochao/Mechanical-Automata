@@ -1,6 +1,24 @@
 {
   "_name": "Cow",
-  "drops": [],
+  "drops": [
+  {
+      "function": "all",
+      "functions": [
+        {
+          "_comment": "make animals drop realistic amounts of meat",
+          "function": "add",
+          "id": "beef",
+          "count": 10~40
+        },
+		{
+          "_comment": "make animals drop realistic amounts of drops",
+          "function": "add",
+          "id": "leather",
+          "count": 5~15
+        }
+      ]
+    }
+  ],
   "pre_stats": [],
   "stats": []
 }

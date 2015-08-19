@@ -1,6 +1,18 @@
 {
   "_name": "Sheep",
-  "drops": [],
+  "drops": [
+  {
+      "function": "all",
+      "functions": [
+        {
+          "_comment": "make animals drop realistic amounts of meat",
+          "function": "add",
+          "id": "harvestcraft:muttonrawItem",
+          "count": 5~25
+        }
+      ]
+    }
+  ],
   "pre_stats": [],
   "stats": []
 }

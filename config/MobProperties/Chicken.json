@@ -1,6 +1,18 @@
 {
   "_name": "Chicken",
-  "drops": [],
+  "drops": [
+  {
+      "function": "all",
+      "functions": [
+        {
+          "_comment": "make animals drop realistic amounts of drops",
+          "function": "add",
+          "id": "feather",
+          "count": 3~10
+        }
+      ]
+    }
+  ],
   "pre_stats": [],
   "stats": []
 }

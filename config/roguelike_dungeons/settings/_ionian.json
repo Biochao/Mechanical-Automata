@@ -119,7 +119,7 @@
 					"stair" : {
 						"type" : "METABLOCK",
 						"data" : {
-							"name" : "minecraft:nether_brick_stairs"
+							"name" : "customitems:dark_quartz_stairs"
 						}
 					}
 				},

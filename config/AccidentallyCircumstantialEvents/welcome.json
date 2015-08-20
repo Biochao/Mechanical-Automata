@@ -1,0 +1,17 @@
+{
+    "events":
+            [
+                {
+                    "event_type": "JOIN_WORLD",
+                    "noDeathDim": "true",
+                    "joinOneEver": "true",
+                    "target": "ALL_PLAYERS",
+                    "tasks": [
+                        {
+                            "task_type": "COMMAND",
+                            "command": "/say Welcome to Mechanical Automata! Read about the changes in this modpack and helpful hints by pressing 'H'."        
+                        }
+                    ]
+                }
+            ]
+}

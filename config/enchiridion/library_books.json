@@ -255,13 +255,24 @@
     },
     {
       "mod": "TConstruct",
-      "stack": "TConstruct:manualBook 3",
+      "stack": "TConstruct:manualBook 4",
       "type": "default",
-      "free": true,
+      "free": false,
       "onCrafted": false,
       "openGuiClass": "",
       "openGuiNBT": "",
-      "pickUp": false,
+      "pickUp": true,
+      "overwrite": ""
+    },
+	{
+      "mod": "TConstruct",
+      "stack": "TConstruct:manualBook 3",
+      "type": "default",
+      "free": false,
+      "onCrafted": false,
+      "openGuiClass": "",
+      "openGuiNBT": "",
+      "pickUp": true,
       "overwrite": ""
     },
     {
@@ -383,6 +394,72 @@
       "openGuiClass": "",
       "openGuiNBT": "",
       "pickUp": false,
+      "overwrite": ""
+    },
+	{
+      "mod": "ImmersiveEngineering",
+      "stack": "ImmersiveEngineering:tool 3",
+      "type": "default",
+      "free": true,
+      "onCrafted": false,
+      "openGuiClass": "",
+      "openGuiNBT": "",
+      "pickUp": false,
+      "overwrite": ""
+    },
+	{
+      "mod": "SpiceOfLife",
+      "stack": "SpiceOfLife:bookfoodjournal",
+      "type": "default",
+      "free": false,
+      "onCrafted": false,
+      "openGuiClass": "",
+      "openGuiNBT": "",
+      "pickUp": true,
+      "overwrite": ""
+    },
+	{
+      "mod": "ThermalFoundation",
+      "stack": "ThermalFoundation:lexicon",
+      "type": "default",
+      "free": false,
+      "onCrafted": true,
+      "openGuiClass": "",
+      "openGuiNBT": "",
+      "pickUp": true,
+      "overwrite": ""
+    },
+	{
+      "mod": "rftools",
+      "stack": "rftools:rfToolsManualItem",
+      "type": "default",
+      "free": false,
+      "onCrafted": true,
+      "openGuiClass": "",
+      "openGuiNBT": "",
+      "pickUp": true,
+      "overwrite": ""
+    },
+	{
+      "mod": "rftools",
+      "stack": "rftools:rfToolsManualDimensionItem",
+      "type": "default",
+      "free": false,
+      "onCrafted": true,
+      "openGuiClass": "",
+      "openGuiNBT": "",
+      "pickUp": true,
+      "overwrite": ""
+    },
+	{
+      "mod": "deepresonance",
+      "stack": "deepresonance:deepResonanceManualItem",
+      "type": "default",
+      "free": false,
+      "onCrafted": true,
+      "openGuiClass": "",
+      "openGuiNBT": "",
+      "pickUp": true,
       "overwrite": ""
     }
   ]

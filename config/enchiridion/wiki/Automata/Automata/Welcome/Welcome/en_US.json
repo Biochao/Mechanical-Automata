@@ -29,6 +29,6 @@
   "isPriority": false,
   "backgroundColor": -301989888,
   "name": "Welcome",
-  "canEdit": false,
+  "canEdit": true,
   "saveDir": ""
 }

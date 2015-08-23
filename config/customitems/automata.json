@@ -1,0 +1,14 @@
+{
+    "blocks": [         
+        {
+            "textureName": "ardite_sand",
+            "name": "Ardite Sand",
+            "toolClass": "shovel",
+            "stepSound": "sand",
+            "material": "sand",
+            "resistance": 2.5,            
+            "hardness": 0.5,
+            "type": "falling"
+        }
+    ]
+}

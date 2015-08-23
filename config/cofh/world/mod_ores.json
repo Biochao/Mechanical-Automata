@@ -48,41 +48,45 @@
             1
         ]
     },
-    "arditegravel": {
+    "arditesand": {
         "template": "uniform",
         "block": {
-            "name": "TConstruct:SearedBrick",
-            "metadata": 2
+            "name": "customitems:ardite_sand",
+            "metadata": 0
         },
-        "material": "netherrack",
-        "clusterSize": 2,
-        "numClusters": 10,
-        "minHeight": 0,
+        "material": "sand",
+        "clusterSize": 12,
+        "numClusters": 2,
+		"chunkChance": 5,
+        "minHeight": 63,
         "maxHeight": 128,
         "retrogen": "true",
-        "biomeRestriction": "none",
-        "biomes": [],
+        "biomeRestriction": "whitelist",
+        "biomes": [
+            {"type": "dictionary", "entry": "SANDY"},
+            {"type": "dictionary", "entry": "DESERT"}
+        ],
         "dimensionRestriction": "blacklist",
         "dimensions": [
             1
         ]
     },
-    "cobaltgravel": {
-        "template": {"type": "underfluid", "generator": "boulder"},
+    "cobalt_gravel": {
+        "template": "underfluid",
         "block": {
-            "name": "TConstruct:SearedBrick",
-            "metadata": 1
+            "name": "TConstruct:GravelOre",
+            "metadata": 5
         },
         "material": "gravel",
 		"genFluid": "water",
-		"clusterSize": 2,
-		"count": 1,
-		"hollow": "false",
-		"sizeVariance": 2,
-		"chunkChance": 250,
+		"clusterSize": 12,
+		"numClusters": 2,
+		"chunkChance": 5,
         "retrogen": "false",
-        "biomeRestriction": "none",
-        "biomes": [],
+        "biomeRestriction": "whitelist",
+        "biomes": [
+            {"type": "dictionary", "entry": "OCEAN"}
+        ],
         "dimensionRestriction": "blacklist",
         "dimensions": [
             1

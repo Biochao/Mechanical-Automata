@@ -1,0 +1,112 @@
+{
+  "components": [
+    {
+      "type": "ElementText",
+      "properties": {
+        "text": "Modpack Tweaks and Changes",
+        "color": -1,
+        "x": 69,
+        "y": 23,
+        "width": 338,
+        "height": 31,
+        "size": 4.099998
+      }
+    },
+    {
+      "type": "ElementText",
+      "properties": {
+        "text": "Infinite water sources are disabled.\nThere are some machines that can make water however.",
+        "color": -1,
+        "x": 213,
+        "y": 122,
+        "width": 189,
+        "height": 36,
+        "size": 2.0
+      }
+    },
+    {
+      "type": "ElementItem",
+      "properties": {
+        "item": "minecraft:flowing_water",
+        "x": 81,
+        "y": 138,
+        "width": 48,
+        "height": 48,
+        "size": 6.0
+      }
+    },
+    {
+      "type": "ElementItem",
+      "properties": {
+        "item": "ThermalExpansion:Machine 8 {RSControl:0b,Facing:3b,Energy:0,SideCache:[6 bytes],Level:3b,Augments:[0:{Slot:0,id:4450s,Count:1b,Damage:0s},1:{Slot:1,id:4450s,Count:1b,Damage:32s},2:{Slot:2,id:4450s,Count:1b,Damage:16s}]}",
+        "x": 210,
+        "y": 192,
+        "width": 32,
+        "height": 32,
+        "size": 4.0
+      }
+    },
+    {
+      "type": "ElementItem",
+      "properties": {
+        "item": "harvestcraft:sink 0",
+        "x": 282,
+        "y": 193,
+        "width": 32,
+        "height": 32,
+        "size": 4.0
+      }
+    },
+    {
+      "type": "ElementItem",
+      "properties": {
+        "item": "Railcraft:machine.alpha 14",
+        "x": 354,
+        "y": 193,
+        "width": 32,
+        "height": 32,
+        "size": 4.0
+      }
+    },
+    {
+      "type": "ElementItem",
+      "properties": {
+        "item": "Magneticraft:InfiniteWater",
+        "x": 426,
+        "y": 191,
+        "width": 32,
+        "height": 32,
+        "size": 4.0
+      }
+    },
+    {
+      "type": "ElementItem",
+      "properties": {
+        "item": "minecraft:skull 2",
+        "x": 36,
+        "y": 315,
+        "width": 93,
+        "height": 93,
+        "size": 11.625
+      }
+    },
+    {
+      "type": "ElementText",
+      "properties": {
+        "text": "Monsters only spawn below y\u003d60.\nThe surface is peaceful.",
+        "color": -1,
+        "x": 210,
+        "y": 353,
+        "width": 198,
+        "height": 57,
+        "size": 2.0
+      }
+    }
+  ],
+  "scrollMax": 0,
+  "isPriority": false,
+  "backgroundColor": -301989888,
+  "name": "Modpack Changes",
+  "canEdit": true,
+  "saveDir": ""
+}

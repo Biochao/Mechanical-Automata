@@ -18,15 +18,38 @@
         "text": "Mechanical Automata",
         "color": -1,
         "x": 33,
-        "y": 79,
+        "y": 68,
         "width": 445,
         "height": 38,
         "size": 6.6999955
       }
+    },
+    {
+      "type": "ElementBox",
+      "properties": {
+        "color": -1,
+        "x": 30,
+        "y": 131,
+        "width": 335,
+        "height": 4,
+        "size": 2.0
+      }
+    },
+    {
+      "type": "ElementText",
+      "properties": {
+        "text": "Thank you for downloading this modpack. I\u0027ve spent a lot of time putting it together and tried to keep it a cohesive and balanced experience that is fun to play.\n\nThere a lot of changes made to the mods you may be used to playing as well \nas some mods you may have never played before. Use this guide to learn about anything in this pack.\n\nIf this wiki doesn\u0027t have the information you were looking for, or you believe you have found a bug with the modpack, please submit a report to the modpack Github issue tracker.",
+        "color": -1,
+        "x": 258,
+        "y": 204,
+        "width": 219,
+        "height": 177,
+        "size": 2.1
+      }
     }
   ],
   "scrollMax": 0,
-  "isPriority": false,
+  "isPriority": true,
   "backgroundColor": -301989888,
   "name": "Welcome",
   "canEdit": true,

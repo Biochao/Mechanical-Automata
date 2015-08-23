@@ -1,0 +1,34 @@
+{
+  "components": [
+    {
+      "type": "ElementText",
+      "properties": {
+        "text": "GitHub",
+        "color": -1,
+        "x": 249,
+        "y": 23,
+        "width": 206,
+        "height": 29,
+        "size": 8.899998
+      }
+    },
+    {
+      "type": "ElementText",
+      "properties": {
+        "text": "https://github.com/Biochao/Mechanical-Automata/issues",
+        "color": -1,
+        "x": 87,
+        "y": 135,
+        "width": 284,
+        "height": 52,
+        "size": 2.0
+      }
+    }
+  ],
+  "scrollMax": 0,
+  "isPriority": false,
+  "backgroundColor": -301989888,
+  "name": "Issue Tracker",
+  "canEdit": true,
+  "saveDir": ""
+}

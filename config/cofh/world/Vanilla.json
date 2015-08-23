@@ -141,7 +141,7 @@
         ]
     },
     "poor-gold": {
-        "template": {"type": "fractal", "generator": "large-vein", "sparse": true},
+        "template": {"type": "fractal", "generator": "large-vein", "sparse": false},
         "block": [
             {"name": "Railcraft:ore", "metadata": 8, "weight":70},
             {"name": "gold_ore", "metadata": 0, "weight":30}
@@ -150,7 +150,7 @@
         "clusterSize": 20,
         "numClusters": 3,
         "minHeight": 0,
-        "maxHeight": 32,
+        "maxHeight": 40,
         "retrogen": "true",
         "biomeRestriction": "blacklist",
         "biomes": [
@@ -170,20 +170,15 @@
         ],
         "material": "minecraft:gravel",
         "clusterSize": 5,
-        "numClusters": 8,
+        "numClusters": 10,
         "minHeight": 50,
         "maxHeight": 70,
-		"genFluid": "lava",
+		"genFluid": "water",
         "retrogen": "true",
         "biomeRestriction": "whitelist",
         "biomes": [
             {"type": "dictionary", "entry": "RIVER"},
-            {"type": "dictionary", "entry": "BEACH"},
-			{"type": "name", "entry": "rwg_riverHot"},
-			{"type": "name", "entry": "rwg_riverTemperate"},
-			{"type": "name", "entry": "rwg_riverOasis"},
-			{"type": "name", "entry": "rwg_riverIce"},
-			{"type": "name", "entry": "rwg_riverCold"}
+            {"type": "dictionary", "entry": "BEACH"}
         ],
         "dimensionRestriction": "blacklist",
         "dimensions": [
@@ -233,14 +228,14 @@
         "block": "redstone_ore",
         "material": "minecraft:stone",
         "clusterSize": 20,
-        "numClusters": 10,
+        "numClusters": 7,
         "maxHeight": 56,
         "minHeight": 16,
         "retrogen": "false",
         "biomeRestriction": "whitelist",
         "biomes": [
             {"type": "dictionary", "entry": "SANDY"},
-            {"type": "dictionary", "entry": "BEACH"}
+            {"type": "dictionary", "entry": "DESERT"}
         ],
         "dimensionRestriction": "blacklist",
         "dimensions": [
